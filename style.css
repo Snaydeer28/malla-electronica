@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+#ciclos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ciclo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.curso {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.pendiente { background-color: #d9534f; }
+.cursando  { background-color: #f0ad4e; }
+.aprobado  { background-color: #5cb85c; }
+
+.mat { background-color: #007bff; }
+.fis { background-color: #17a2b8; }
+.elec { background-color: #6f42c1; }
+.dig { background-color: #6610f2; }
+.ctrl { background-color: #20c997; }
+.prog { background-color: #fd7e14; }
+.general { background-color: #6c757d; }
+.sosten { background-color: #28a745; }
