@@ -1,0 +1,86 @@
+[
+  {
+    "id": "INE002",
+    "nombre": "Programación y Computación",
+    "ciclo": 1,
+    "prerrequisitos": [],
+    "area": "prog"
+  },
+  {
+    "id": "INO104",
+    "nombre": "Cálculo I",
+    "ciclo": 1,
+    "prerrequisitos": [],
+    "area": "mat"
+  },
+  {
+    "id": "INO204",
+    "nombre": "Cálculo II",
+    "ciclo": 2,
+    "prerrequisitos": ["INO104"],
+    "area": "mat"
+  },
+  {
+    "id": "INO205",
+    "nombre": "Física I",
+    "ciclo": 2,
+    "prerrequisitos": [],
+    "area": "fis"
+  },
+  {
+    "id": "191S1331",
+    "nombre": "Electricidad y Magnetismo",
+    "ciclo": 3,
+    "prerrequisitos": ["INO205"],
+    "area": "fis"
+  },
+  {
+    "id": "191S1432",
+    "nombre": "Ecuaciones Diferenciales",
+    "ciclo": 3,
+    "prerrequisitos": ["INO204"],
+    "area": "mat"
+  },
+  {
+    "id": "191S1935",
+    "nombre": "Circuitos Eléctricos I",
+    "ciclo": 3,
+    "prerrequisitos": [],
+    "area": "elec"
+  },
+  {
+    "id": "191E1944",
+    "nombre": "Circuitos Electrónicos I",
+    "ciclo": 4,
+    "prerrequisitos": ["191S1935"],
+    "area": "elec"
+  },
+  {
+    "id": "191S1952",
+    "nombre": "Teoría de Campos Electromagnéticos",
+    "ciclo": 5,
+    "prerrequisitos": ["191S1331", "191S1432"],
+    "area": "fis"
+  },
+  {
+    "id": "191E1963",
+    "nombre": "Señales y Sistemas",
+    "ciclo": 6,
+    "prerrequisitos": ["191S1952", "191E1944"],
+    "area": "ctrl"
+  },
+  {
+    "id": "191E1972",
+    "nombre": "Sistemas de Control I",
+    "ciclo": 7,
+    "prerrequisitos": ["191E1963"],
+    "area": "ctrl"
+  },
+  {
+    "id": "191E1984",
+    "nombre": "Sistemas de Control II",
+    "ciclo": 8,
+    "prerrequisitos": ["191E1972"],
+    "area": "ctrl"
+  }
+]
